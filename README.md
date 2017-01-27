@@ -1,11 +1,12 @@
 # RemoveDups
 Java program to remove duplicates in an array of primitive integers.
 
-#Assumption
+#Assumptions
 
  * In all practical uses the expected output type from a filter/refinement process is same as the input type. So all methods return an array of primitive integers.
  * Package structure has not been created for easy execution of the standalone class. If this is part of an application user must place the file in a package.
  * The purpose of main method is to quickly test the capabilities provided by DeDup class. In production consumer should instantiate DeDup and use appropriate method on the object.
+ * There are more than 3 ways to remove duplicates which might involve brute force processing, less readability and less efficient in modern days. Provided are 3 most eligant ways to achieve the required functionality.
 
 # Getting Started
 
